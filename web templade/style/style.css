@@ -1,0 +1,160 @@
+ /* header part star */
+ .headers{
+ height: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,100px);
+  grid-gap: 4px;
+  grid-auto-flow: dense;
+  justify-content: right;
+  align-items: center;
+  background: rgb(82, 86, 82);
+ color: #fff;
+ }
+ .headers div{
+  background: green;
+  height: 50px;
+ display: grid;
+ align-items: center;
+ padding: 0px 10px;
+ 
+ }
+ /* header part end */
+ .mainArea{
+  margin-top: 10px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-auto-flow: dense;
+  grid-gap: 5px;
+  object-fit: cover;
+ }
+ .left-side{
+  grid-column: span 3;
+  grid-row: span 12;
+  background: yellow;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ }
+ .middel{
+  grid-column: span 6;
+  grid-row: span 12;
+  background: darkkhaki;
+ }
+ .right-side{
+  background: red;
+  grid-column: span 3;
+  grid-row: span 12;
+ }
+ /* main part end  */
+ .mainHeader{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(12,1fr);
+  grid-gap: 4px;
+  height: 500px;
+ 
+ }
+ 
+ .headerpart{
+  grid-column: span 12;
+  grid-row: span 2;
+  background: yellowgreen;
+  margin-bottom: 15px;
+ }
+
+ .mainleftside{
+  grid-column: span 3;
+  grid-row: span 12;
+ 
+ }
+ .mainmiddel{
+  background: gold;
+  grid-column: span 6;
+  grid-row: span 12;
+ }
+ .mainRight{
+ 
+  grid-column: span 3;
+  grid-row: span 12;
+ }
+  /* left side start */
+ .leftcontent{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(6,1fr);
+  grid-gap: 6px;
+  height: 100%;
+ }
+ .topcontent{
+  grid-column: span 6;
+  grid-row: span 3;
+  background:rgb(233, 115, 115) ;
+  border-radius: 10px;
+ }
+ .bottomcontent{
+  grid-column: span 6;
+  grid-row: span 3;
+  background:rgb(5, 227, 75) ;
+  border-radius: 10px;
+
+ }
+ /* Left side end */
+ /* right side start */
+ .mainrightside{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(6,1fr);
+  grid-gap: 6px;
+  height: 100%;
+ }
+
+ .right-sides{
+  grid-column: span 6;
+  grid-row: span 3;
+  background:rgb(233, 115, 115) ;
+  border-radius: 10px;
+  border-radius: 10px;
+ }
+ .right-bootoms{
+  grid-column: span 6;
+  grid-row: span 3;
+  background:rgb(5, 227, 75) ;
+  border-radius: 10px;
+  border-radius: 10px;
+
+ }
+ /* right side end */
+
+ /* this card agea  */
+ .cardmain{
+  display: grid;
+  grid-template-columns: repeat( 12,1fr);
+  grid-template-rows: repeat(12,1fr);
+  grid-gap:4px;
+  height: 400px;
+ 
+  margin-top: 10px;
+ }
+ .cardpart{
+  grid-column: span 3;
+  grid-row: span 12;
+ }
+ .fast{
+  background: yellow;
+  border-radius: 15px;
+ }
+ .secound{
+  background: red;
+  border-radius: 15px;
+ }
+ .thard{
+  background-color: blue;
+  border-radius: 15px;
+ }
+ .foure{
+  background: rgb(0, 179, 255);
+  border-radius: 15px;
+ }
+  /* this card end  */
